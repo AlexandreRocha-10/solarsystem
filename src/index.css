@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-image: url('images/background.png');
+}
+
+header {
+  margin: 20px;
+  color: lightgray;
+}
+
+.headline {
+  color: lightgray;
+}
+
+.planet-container {
+  display: flex;
+}
+
+.planets {
+  flex: 1;
+}
+
+.planets img {
+  width: 80%;
+}
+
+.missions-container {
+  display: flex;
+  color: lightgray;
+  flex-wrap: wrap;
+}
+
+.missions {
+  border: 1px solid #000000;
+  background-color: #ffffff09;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: calc(20% - 20px);
+  border-radius: 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  .missions {
+    width: calc(50% - 20px); /* altera o tamanho do card para ocupar 50% do wrapper em telas menores */
+  }
+}
