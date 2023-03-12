@@ -14,10 +14,15 @@ header {
 
 .planet-container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .planets {
-  flex: 1;
+  padding: 20px;
+  /* margin-right: 20px; */
+  margin-bottom: 20px;
+  width: calc(14% - 20px);
+  border-radius: 8px;
 }
 
 .planets img {
@@ -42,6 +47,9 @@ header {
 
 @media only screen and (max-width: 768px) {
   .missions {
-    width: calc(50% - 20px); /* altera o tamanho do card para ocupar 50% do wrapper em telas menores */
+    width: calc(50% - 20px);
+  }
+  .planets {
+    width: calc(50% - 20px);
   }
 }
