@@ -9,7 +9,8 @@
 ## About The Project
 
 <p> 
-  Esse é um projeto desenvolvido com React.js em que construímos um site que consome uma API com os planetas do sistema solar. 
+  Esse é um projeto desenvolvido com React.js em que construímos um site que consome uma API com os planetas do sistema solar.
+  
   Foi desenvolvido o conhecimento na criação de componentes de classe do React, utilização de props e hofs como o map.
 </p>
 
